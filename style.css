@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:Poppins;
+}
+.header{
+    min-height:100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(GYM.jpg);
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items:right;
+}
+
+nav img{
+        width: 150px;
+    }
+    .nav-links{
+        flex:1;
+        text-align:right;
+}
+     .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative; 
+}
+.nav-links ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+.nav-links ul li::after{
+    content:'';
+    width:0%;
+    height: 2px;
+    background:#b2e43d;
+    display:block;
+    margin: auto;
+    transition:0.5s;
+}
+.nav-links ul li:hover::after{
+    width:100%;
+}
+.text-box { 
+             width:30%;
+             color: #fff;
+             position: absolute;
+             top:35%; 
+             left:35%;
+             transform:translate (-50%,-50%);
+             text-align:center
+            }
+
+.text-box h1{
+    font-size: 62px;
+ }
+.text-box p{
+     margin: 10px 0 40px;
+    font-size: 16px;
+    color: #fff;
+}
+ .hero-btn{
+    display:inline-block ;
+    padding:12px 34px;
+    text-decoration: none;
+    border: 1px solid #ffff; 
+    color: #fff;
+    background: transparent;
+    position: relative;
+    cursor: pointer
+ }
+.hero-btn:hover{
+    border: 1px solid rgb(69, 166, 9);
+    background: rgb(69, 166, 9);
+    transition:1s
+}
+.images {
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(GYM.jpg);
+    background-color:white;
+    text-align: center;
+    font-size: 50px;
+    color:pink;
+    font-family:cursive;
+}
+.center img{
+    display:inline-block;
+    height:350px;
+    margin:30px;
+    top:30px;
+    border-radius: 15px;
+}
+.background-plans{
+    min-height:100;
+    width:100%;
+    background-image:url(pexels-scott-webb-28054.jpg);
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+.plan-1{
+    text-align: center;
+    font-size: 30px;
+}
+.plan-1 img{
+    border-radius: 5px;
+}
+.plan-2{
+    text-align: center;
+    font-size: 30px;
+}
+.plan-2 img{
+    border-radius: 15px;
+}
+.plan-3{
+    text-align: center;
+    font-size: 30px;
+}
+.plan-3 img{
+    border-radius: 15px;
+}
+.plans-list h2{
+    text-align: center;
+    font-size: 70px;
+    font-family:cursive;
+}
+.plans-list h1{
+    font-size: 30px;
+    text-decoration: none;
+    color:white;
+}
+.plans-list{
+    text-align: center;
+    font-size: 60px;
+}
+.plan-1 h1::after{
+    content:'';
+    width:0%;
+    height: 2px;
+    background:#13bbdc;
+    display:block;
+    margin: auto;
+    transition:0.5s;
+}
+.plan-1 h1:hover::after{
+    width:10%;
+}
+.plan-2 h1::after{
+    content:'';
+    width:0%;
+    height: 2px;
+    background:#b92ec5;
+    display:block;
+    margin: auto;
+    transition:0.5s;
+}
+.plan-2 h1:hover::after{
+    width:10%;
+}
+.plan-3 h1::after{
+    content:'';
+    width:0%;
+    height: 2px;
+    background:#d96805cb;
+    display:block;
+    margin: auto;
+    transition:0.5s;
+}
+.plan-3 h1:hover::after{
+    width:15%;
+}
